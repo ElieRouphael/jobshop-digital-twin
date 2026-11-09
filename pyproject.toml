@@ -1,0 +1,10 @@
+[project]
+name = "jobshop-digital-twin"
+version = "0.1.0"
+description = "Simulated flexible job shop (SimPy) rescheduled by dispatching rules, CP-SAT on a rolling horizon and a DQN agent"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+addopts = "-q"

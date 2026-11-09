@@ -1,0 +1,8 @@
+# Tested with Python 3.13, simpy 4.1, ortools 9.15, numpy 2.5, torch 2.15 (CPU), matplotlib 3.11, pytest 9.
+# CPU-only PyTorch wheel: pip install torch --index-url https://download.pytorch.org/whl/cpu
+simpy>=4.1
+ortools>=9.10
+numpy>=1.26
+torch>=2.2
+matplotlib>=3.8
+pytest>=8
