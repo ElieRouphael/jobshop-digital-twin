@@ -88,7 +88,7 @@ arrivals and future breakdowns are unknown to the model.
 * reward: minus the increase, since the previous decision, of the tardiness the shop is already
   committed to. The rewards of a run sum exactly to minus its total tardiness;
 * Double DQN, replay buffer, soft target update, Huber loss; code structure taken from my
-  [CartPole DQN study](https://elierouphael.github.io).
+  [CartPole DQN tutorial](https://elierouphael.github.io/tutorials/dqn-cartpole/index.html).
 
 ## Results
 
@@ -231,3 +231,7 @@ Makespan, tardiness, utilisation and setup time are reproducible; decision times
   breakdowns and repairs; two runs give the same schedule;
 * DQN: Bellman targets on hand-made Q-values (terminal state, Double DQN selection), soft
   update, the rewards of a run sum to minus its total tardiness, a short training run.
+
+## License
+
+MIT (see `LICENSE`).
